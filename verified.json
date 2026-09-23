@@ -1,0 +1,12 @@
+{
+  "score": 85,
+  "build_status": "verified",
+  "tests_passed": 5,
+  "routing_verified": true,
+  "security_clean": true,
+  "no_ai_branding": true,
+  "no_explabs_leaks": true,
+  "repo_slug": "architecture-acoustic-design",
+  "project_niche": "architecture-acoustic-design",
+  "published": true
+}
