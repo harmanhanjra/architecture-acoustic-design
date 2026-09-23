@@ -1,0 +1,27 @@
+[project]
+name = "architecture-acoustic-design"
+version = "0.1.0"
+description = "Acoustic architecture analytics for concert halls and building design"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    "sqlite3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "httpx>=0.27.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/harmanhanjra/architecture-acoustic-design"
+Repository = "https://github.com/harmanhanjra/architecture-acoustic-design"
